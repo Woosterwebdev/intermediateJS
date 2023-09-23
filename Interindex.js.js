@@ -66,3 +66,70 @@
 // if (loveScore <= 30) {
 //     alert("Your love score is " + loveScore + "%" + " You go together like oil and water.");
 // }
+
+//Leap year checker
+
+// function isLeap(year) {
+
+// if (year % 4 === 0 && year % 100 !== 0) {
+//     return "Leap year."
+//     }
+// else if (year % 4 === 0 && year % 100 === 0 && year % 400 === 0) {
+//     return "Leap year."
+// }
+// else {
+//     return "Not leap year."
+// }
+// }
+
+// isLeap(2004)
+
+//Arrays
+
+//Guest list
+
+// var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+
+// var guestName = prompt("What is your name?");
+
+// if (guestList.includes(guestName)) {
+//     alert("Welcome!");
+//     } else {
+//         alert("Access denied!");
+//     }
+
+//FizzBuzz
+//.push pushed () into the end of an array.
+//.pop removes last item from an array.
+
+// var output = [];
+// var count = 1;
+
+// function fizzBuzz() {
+
+// if (count % 3 === 0 && count % 5 === 0) {
+//         output.push("FizzBuzz")
+//     }
+// else if (count % 3 === 0) {
+//         output.push("Fizz")
+//     }
+// else if (count % 5 === 0) {
+//         output.push("Buzz")
+//     }
+// else {
+//     output.push(count)
+//     }
+    
+// count++;  
+    
+//     console.log(output);
+// }
+
+//Who's buying lunch random selector
+
+// function whosPaying(names) {
+//     var numberOfGuests = names.length;
+//     var randomGuestPosition = Math.floor(Math.random() * numberOfGuests);
+//     var randomGuest = names[randomGuestPosition];
+//     return (randomGuest + " is going to buy lunch today!");
+// }           
